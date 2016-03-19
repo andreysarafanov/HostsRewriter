@@ -1,0 +1,2 @@
+﻿128.0.0.1 google.com
+128.0.0.2 yandex.ru

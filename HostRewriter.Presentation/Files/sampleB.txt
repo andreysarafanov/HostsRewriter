@@ -1,0 +1,2 @@
+﻿127.0.0.2 example.com
+nothing toBeRemovedInSampleB.com
