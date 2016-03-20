@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HostCollectionTests.cs" />
+    <Compile Include="HostsProfileTests.cs" />
     <Compile Include="HostEntryTests.cs" />
     <Compile Include="ProfileLoaderIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

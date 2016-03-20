@@ -33,6 +33,7 @@ namespace HostsRewriter.Tests
 			{
 				HostEntry.FromString("127.1.1.1 google.com"),
 				HostEntry.FromString("nothing localresource.me"),
+				HostEntry.FromString("nothing anotherlocalresource.me"),
 				HostEntry.FromString("127.1.1.3 newurl.ru"),
 			}.Cast<HostEntry>().ToList());
 

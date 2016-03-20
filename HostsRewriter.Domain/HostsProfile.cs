@@ -43,7 +43,7 @@ namespace HostsRewriter.Domain
 					resultLines.Add(line);
 				}
 			}
-			foreach (var e in trackedEntries.Where(e => !e.Used))
+			foreach (var e in trackedEntries.Where(e => !e.Used && e.Entry.Ip != null))
 			{
 				resultLines.Add(e.Entry.ToString());
 			}
